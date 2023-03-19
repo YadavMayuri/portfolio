@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&family=Cinzel&family=Raleway:wght@300&display=swap');
+
+
+#screen-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/beach-img.jpg);
+    height: 105vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid white; */
+    height: 105vh;
+}
+
+.left-header {
+    width: 25%;
+    color: white;
+    /* border: 2px solid yellow; */
+    background-color: #a43e4c;
+}
+
+.right-header {
+    width: 70%;
+    color: white;
+    /* border-bottom: 2px solid white; */
+}
+
+.person-img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.person-img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.intro {
+    width: 100%;
+
+}
+
+.intro>h1 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.intro>h3 {
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.navbar {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.nav-link {
+    border-bottom: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar>.nav-link:nth-child(1) {
+    color: #a43e4c;
+    background-color: white;
+}
+
+.nav-link>h4 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+.social-icons>i {
+    margin: 0px 2px;
+    background-color: #833438;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.social-icons>i:nth-child(1) {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* copyright */
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+/* right div */
+
+/* about me */
+.about-me {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.about-me>h1 {
+    font-size: 26px;
+    letter-spacing: 0.2px;
+}
+
+.about-me>p {
+    font-size: 12px;
+    padding: 10px 40px;
+    line-height: 1.6;
+}
+.underline{
+    width: 5%;
+    border: 1px solid #833438;
+    display: block;
+    margin: auto auto;
+    
+}
+
+
+/* CONTENT  */
+.content-1 {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.content-img {
+    width: 45%;
+
+    /* border: 2px solid yellow; */
+}
+
+.content-img>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.content-info {
+    width: 45%;
+    /* border: 2px solid yellow; */
+    margin-left: 20px;
+
+}
+
+.content-info>h1 {
+    font-size: 22px;
+    padding: 18px 0px;
+}
+
+.content-info>p {
+    font-size: 12px;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #a43e4c;
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hr1 {
+    color: white;
+    margin: 26px 0px;
+}
+.hr-line{
+    color: white;
+    margin: 26px 0px;
+    opacity: 0.3;
+}
+/* screen-2 */
+#screen-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/beach-img.jpg);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin: -26px 0px;
+
+}
+
+.hr2 {
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+
+.main-content {
+    width: 64%;
+    margin-left: auto;
+    /* border: 1px solid yellow; */
+    margin-right: 60px;
+    color: white;
+
+
+}
+
+.what-iam {
+    margin-top: 26px;
+    text-align: center;
+
+}
+
+.what-iam>h1 {
+    font-size: 26px;
+    letter-spacing: 0.2px;
+}
+
+.what-iam>p {
+    font-size: 12px;
+    padding: 10px 40px;
+    line-height: 1.6;
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 2px solid pink; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.skill-info {
+    width: 48%;
+    /* border: 2px solid white; */
+    margin: 8px;
+    padding: 22px;
+    background:linear-gradient(rgba(255, 255, 255, 0.1),rgba(252, 252, 252, 0.1));
+
+
+}
+
+.skill-info>i {
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    margin: 10px 0px;
+
+}
+
+.skill-info>h1 {
+    font-size: 26px;
+}
+
+.skill-info>p {
+    font-size: 12px;
+    padding: 10px 0px;
+    line-height: 1.6;
+}
+
+/* work */
+
+#screen-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/beach-img.jpg);
+    height: 160vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.my-work {
+    width: 64%;
+    margin-left: auto;
+    /* border: 1px solid blueviolet; */
+    margin-right: 60px;
+    color: white;
+    
+}
+
+.work-info {
+    margin-top: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.work-info>h1 {
+    font-size: 26px;
+    letter-spacing: 0.2px;
+}
+
+.work-info>p {
+    font-size: 12px;
+    padding: 10px 40px;
+    line-height: 1.6;
+}
+
+/* menus */
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+    margin: auto;
+}
+.menu>a{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+
+}
+.menu>a:nth-child(1){
+    color: #a43e4c;
+    text-decoration-line: underline;
+    
+}
+
+/* pics */
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 2px solid burlywood; */
+    margin-bottom: 35px;
+}
+.img{
+    width: 45%;
+    height: 250px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 0px;
+}
+.img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* contact */
+.contact-me{
+    width: 64%;
+    margin-left: auto;
+    /* border: 1px solid yellow; */
+    margin-right: 60px;
+    color: white;
+}
+
+.contact-info{
+    
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.contact-info>h1 {
+    font-size: 26px;
+    letter-spacing: 0.2px;
+}
+
+.contact-info>p {
+    font-size: 12px;
+    padding: 10px 40px;
+    line-height: 1.6;
+}
+
+/* contcat form */
+.contact-form{
+    width: 100%;
+    /* border: 2px solid yellow; */
+
+}
+form{
+    width: 100%;
+   
+}
+.contact-form> form> input:nth-child(1){
+    width: 47%;
+
+}
+.contact-form> form> input:nth-child(2){
+    width: 47%;
+    margin-left:43px;
+    
+}
+.contact-form> form> input:nth-child(5){
+    background-color: white;
+    color: #a43e4c;
+    border: none;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 16%;
+    margin-left: 43%;
+    /* display: block;
+    margin: auto auto; */
+    margin-bottom: 50px;
+    
+}
+
+.contact-form>form>input{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 6px;
+    background:linear-gradient(rgba(255, 255, 255, 0.1),rgba(252, 252, 252, 0.1));
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+
+.contact-form>form>textarea{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 6px;
+    background:linear-gradient(rgba(255, 255, 255, 0.1),rgba(252, 252, 252, 0.1));
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
